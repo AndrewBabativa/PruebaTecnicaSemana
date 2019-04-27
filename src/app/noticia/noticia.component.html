@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col 4"><button (click)="ConsultarNoticia(474749)" class="btn btn-danger">Consultar Noticia 1</button>
+    </div>
+    <div class="col 4"><button (click)="ConsultarNoticia(474762)" class="btn btn-danger">Consultar Noticia 2</button>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col 8">
+      <h2>{{ Noticias.title }}</h2>
+      <label style="font-size: 11px; color: #999999;">{{ Noticias.datePublished }}</label>
+      <hr>
+      <p class="lead">{{ Noticias.summary }} </p>
+      <br>
+      <p class="lead" style="font-size: 18px">{{ Noticias.text }} </p>
+    </div>
+  </div>
+</div>
